@@ -15,9 +15,9 @@ int main() {
 	char *cpoint = &ctest;
 	int *ipoint = &itest;
 	long *lpoint = &ltest;
-	printf("Addr. cpoint has: %p\n",cpoint);
-	printf("Addr. ipoint has: %p\n",ipoint);
-	printf("Addr. lpoint has: %p\n",lpoint);
+	printf("Addr. cpoint holds: %p\n",cpoint);
+	printf("Addr. ipoint holds: %p\n",ipoint);
+	printf("Addr. lpoint holds: %p\n",lpoint);
 
 	*cpoint = 'B';
 	printf("char value: %c\n",ctest);
